@@ -1,0 +1,68 @@
+.InitBody {
+	/*background: url(../img/bg.jpg) no-repeat center center fixed;*/
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-size: 18px; 
+}
+
+.bg-alpha {
+	/*background-color: rgba(0, 0, 0, 0.8);*/
+}
+
+table, .table, .navbar {
+	font-size: 18px;
+}
+
+#inicio {
+	margin-top: 10%;
+    padding: 40px;
+    width: 100%; 
+    display: table;
+    text-align: center;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+	padding: 8px;
+	text-align: center;
+	border-color: grey;
+	font-weight: bold;
+}
+
+a,a:hover{
+	font-weight: bold;
+	color: black;
+	font-size: 23px
+}
+
+form{
+	text-align: center;
+}
+
+.lab{
+	font-weight: bold;
+	color: white;
+	font-size: 20px
+}
+
+.titulo{
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: white;
+}
+
+.container{
+	margin-top: 20px;
+}
+input{
+	text-align: center;
+}
+select{
+	color: black;
+	width: 60px;
+}
+input[type=number] {
+   width: 150px;
+}
